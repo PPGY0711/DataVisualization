@@ -560,7 +560,7 @@ class Weibo:
 def main():
     try:
         # 使用实例,输入一个用户id，所有信息都会存储在wb实例中
-        userid = 6592596872  # 可以改成任意合法的用户id（爬虫的微博id除外）
+        userid = 2803301701  # 可以改成任意合法的用户id（爬虫的微博id除外）
         getAll = 0  # 值为0表示爬取全部微博（原创微博+转发微博），值为1表示只爬取原创微博
         getPic = 0  # 值为0代表不下载微博原始图片,1代表下载微博原始图片
         wb = Weibo(userid, getAll, getPic)  # 调用Weibo类，创建微博实例wb
