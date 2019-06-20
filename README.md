@@ -1,5 +1,6 @@
 # WeiboCrawler.py
 
+主要参考：https://github.com/dataabc/weiboSpider
 功能：爬取新浪微博信息，并写入csv/txt文件，文件名为目标用户id加".csv"和".txt"的形式，同时还会下载该微博原始图片(可选)。
 
 ## 输入
